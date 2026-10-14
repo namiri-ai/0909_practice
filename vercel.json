@@ -1,6 +1,9 @@
 {
   "outputDirectory": "dist",
   "cleanUrls": true,
+  "redirects": [
+    { "source": "/(.*)", "destination": "https://namiri-3.vercel.app/", "permanent": true }
+  ],
   "headers": [
     {
       "source": "/(.*)",
