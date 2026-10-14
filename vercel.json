@@ -1,4 +1,12 @@
 {
   "outputDirectory": "dist",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Link", "value": "<https://namiri-3.vercel.app/>; rel=\"canonical\"" }
+      ]
+    }
+  ]
 }
